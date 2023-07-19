@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_media" for="node" attr.name="media" attr.type="string"/>
+  <key id="v_media.type" for="node" attr.name="media.type" attr.type="double"/>
+  <key id="v_type.label" for="node" attr.name="type.label" attr.type="string"/>
+  <key id="v_audience.size" for="node" attr.name="audience.size" attr.type="double"/>
+  <key id="v_color" for="node" attr.name="color" attr.type="string"/>
+  <key id="v_size" for="node" attr.name="size" attr.type="double"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="boolean"/>
+  <key id="v_community" for="node" attr.name="community" attr.type="double"/>
+  <key id="e_type" for="edge" attr.name="type" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <key id="e_width" for="edge" attr.name="width" attr.type="double"/>
+  <key id="e_arrow.size" for="edge" attr.name="arrow.size" attr.type="double"/>
+  <key id="e_color" for="edge" attr.name="color" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">s01</data>
+      <data key="v_media">NY Times</data>
+      <data key="v_media.type">1</data>
+      <data key="v_type.label">Newspaper</data>
+      <data key="v_audience.size">20</data>
+      <data key="v_color">gray50</data>
+      <data key="v_size">12</data>
+      <data key="v_label">true</data>
+      <data key="v_community">1</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">s02</data>
+      <data key="v_media">Washington Post</data>
+      <data key="v_media.type">1</data>
+      <data key="v_type.label">Newspaper</data>
+      <data key="v_audience.size">25</data>
+      <data key="v_color">gray50</data>
+      <data key="v_size">15</data>
+      <data key="v_label">true</data>
+      <data key="v_community">1</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">s03</data>
+      <data key="v_media">Wall Street Journal</data>
+      <data key="v_media.type">1</data>
+      <data key="v_type.label">Newspaper</data>
+      <data key="v_audience.size">30</data>
+      <data key="v_color">gray50</data>
+      <data key="v_size">18</data>
+      <data key="v_label">true</data>
+      <data key="v_community">1</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">s04</data>
+      <data key="v_media">USA Today</data>
+      <data key="v_media.type">1</data>
+      <data key="v_type.label">Newspaper</data>
+      <data key="v_audience.size">32</data>
+      <data key="v_color">gray50</data>
+      <data key="v_size">19.2</data>
+      <data key="v_label">true</data>
+      <data key="v_community">1</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">s05</data>
+      <data key="v_media">LA Times</data>
+      <data key="v_media.type">1</data>
+      <data key="v_type.label">Newspaper</data>
+      <data key="v_audience.size">20</data>
+      <data key="v_color">gray50</data>
+      <data key="v_size">12</data>
+      <data key="v_label">true</data>
+      <data key="v_community">1</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">s06</data>
+      <data key="v_media">New York Post</data>
+      <data key="v_media.type">1</data>
+      <data key="v_type.label">Newspaper</data>
+      <data key="v_audience.size">50</data>
+      <data key="v_color">gray50</data>
+      <data key="v_size">30</data>
+      <data key="v_label">true</data>
+      <data key="v_community">2</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">s07</data>
+      <data key="v_media">CNN</data>
+      <data key="v_media.type">2</data>
+      <data key="v_type.label">TV</data>
+      <data key="v_audience.size">56</data>
+      <data key="v_color">tomato</data>
+      <data key="v_size">33.6</data>
+      <data key="v_label">true</data>
+      <data key="v_community">3</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">s08</data>
+      <data key="v_media">MSNBC</data>
+      <data key="v_media.type">2</data>
+      <data key="v_type.label">TV</data>
+      <data key="v_audience.size">34</data>
+      <data key="v_color">tomato</data>
+      <data key="v_size">20.4</data>
+      <data key="v_label">true</data>
+      <data key="v_community">3</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">s09</data>
+      <data key="v_media">FOX News</data>
+      <data key="v_media.type">2</data>
+      <data key="v_type.label">TV</data>
+      <data key="v_audience.size">60</data>
+      <data key="v_color">tomato</data>
+      <data key="v_size">36</data>
+      <data key="v_label">true</data>
+      <data key="v_community">3</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">s10</data>
+      <data key="v_media">ABC</data>
+      <data key="v_media.type">2</data>
+      <data key="v_type.label">TV</data>
+      <data key="v_audience.size">23</data>
+      <data key="v_color">tomato</data>
+      <data key="v_size">13.8</data>
+      <data key="v_label">true</data>
+      <data key="v_community">3</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">s11</data>
+      <data key="v_media">BBC</data>
+      <data key="v_media.type">2</data>
+      <data key="v_type.label">TV</data>
+      <data key="v_audience.size">34</data>
+      <data key="v_color">tomato</data>
+      <data key="v_size">20.4</data>
+      <data key="v_label">true</data>
+      <data key="v_community">1</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">s12</data>
+      <data key="v_media">Yahoo News</data>
+      <data key="v_media.type">3</data>
+      <data key="v_type.label">Online</data>
+      <data key="v_audience.size">33</data>
+      <data key="v_color">gold</data>
+      <data key="v_size">19.8</data>
+      <data key="v_label">true</data>
+      <data key="v_community">4</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">s13</data>
+      <data key="v_media">Google News</data>
+      <data key="v_media.type">3</data>
+      <data key="v_type.label">Online</data>
+      <data key="v_audience.size">23</data>
+      <data key="v_color">gold</data>
+      <data key="v_size">13.8</data>
+      <data key="v_label">true</data>
+      <data key="v_community">4</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">s14</data>
+      <data key="v_media">Reuters.com</data>
+      <data key="v_media.type">3</data>
+      <data key="v_type.label">Online</data>
+      <data key="v_audience.size">12</data>
+      <data key="v_color">gold</data>
+      <data key="v_size">7.2</data>
+      <data key="v_label">true</data>
+      <data key="v_community">4</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">s15</data>
+      <data key="v_media">NYTimes.com</data>
+      <data key="v_media.type">3</data>
+      <data key="v_type.label">Online</data>
+      <data key="v_audience.size">24</data>
+      <data key="v_color">gold</data>
+      <data key="v_size">14.4</data>
+      <data key="v_label">true</data>
+      <data key="v_community">1</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">s16</data>
+      <data key="v_media">WashingtonPost.com</data>
+      <data key="v_media.type">3</data>
+      <data key="v_type.label">Online</data>
+      <data key="v_audience.size">28</data>
+      <data key="v_color">gold</data>
+      <data key="v_size">16.8</data>
+      <data key="v_label">true</data>
+      <data key="v_community">2</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">s17</data>
+      <data key="v_media">AOL.com</data>
+      <data key="v_media.type">3</data>
+      <data key="v_type.label">Online</data>
+      <data key="v_audience.size">33</data>
+      <data key="v_color">gold</data>
+      <data key="v_size">19.8</data>
+      <data key="v_label">true</data>
+      <data key="v_community">2</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">22</data>
+      <data key="e_width">3.66666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">22</data>
+      <data key="e_width">3.66666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n0" target="n3">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n0" target="n14">
+      <data key="e_type">mention</data>
+      <data key="e_weight">20</data>
+      <data key="e_width">3.33333333333333</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n1" target="n0">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">23</data>
+      <data key="e_width">3.83333333333333</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n1" target="n8">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">1</data>
+      <data key="e_width">0.166666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n1" target="n9">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">5</data>
+      <data key="e_width">0.833333333333333</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n2" target="n0">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">22</data>
+      <data key="e_width">3.66666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n2" target="n4">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">1</data>
+      <data key="e_width">0.166666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n2" target="n7">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">4</data>
+      <data key="e_width">0.666666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n2" target="n9">
+      <data key="e_type">mention</data>
+      <data key="e_weight">2</data>
+      <data key="e_width">0.333333333333333</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n2" target="n10">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">1</data>
+      <data key="e_width">0.166666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n2" target="n11">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">1</data>
+      <data key="e_width">0.166666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n3" target="n2">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">23</data>
+      <data key="e_width">3.83333333333333</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n3" target="n5">
+      <data key="e_type">mention</data>
+      <data key="e_weight">1</data>
+      <data key="e_width">0.166666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n3" target="n10">
+      <data key="e_type">mention</data>
+      <data key="e_weight">22</data>
+      <data key="e_width">3.66666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n3" target="n11">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">3</data>
+      <data key="e_width">0.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n3" target="n16">
+      <data key="e_type">mention</data>
+      <data key="e_weight">2</data>
+      <data key="e_width">0.333333333333333</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n4" target="n0">
+      <data key="e_type">mention</data>
+      <data key="e_weight">1</data>
+      <data key="e_width">0.166666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n4" target="n1">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n4" target="n8">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">2</data>
+      <data key="e_width">0.333333333333333</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n4" target="n14">
+      <data key="e_type">mention</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n5" target="n15">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n5" target="n16">
+      <data key="e_type">mention</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n6" target="n2">
+      <data key="e_type">mention</data>
+      <data key="e_weight">1</data>
+      <data key="e_width">0.166666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n6" target="n7">
+      <data key="e_type">mention</data>
+      <data key="e_weight">22</data>
+      <data key="e_width">3.66666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n6" target="n9">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n6" target="n13">
+      <data key="e_type">mention</data>
+      <data key="e_weight">4</data>
+      <data key="e_width">0.666666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n7" target="n2">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">2</data>
+      <data key="e_width">0.333333333333333</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n7" target="n6">
+      <data key="e_type">mention</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n7" target="n8">
+      <data key="e_type">mention</data>
+      <data key="e_weight">23</data>
+      <data key="e_width">3.83333333333333</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="e_type">mention</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n9" target="n2">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">2</data>
+      <data key="e_width">0.333333333333333</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n11" target="n5">
+      <data key="e_type">mention</data>
+      <data key="e_weight">2</data>
+      <data key="e_width">0.333333333333333</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n11" target="n12">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">22</data>
+      <data key="e_width">3.66666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="e_type">mention</data>
+      <data key="e_weight">22</data>
+      <data key="e_width">3.66666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n12" target="n11">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n12" target="n16">
+      <data key="e_type">mention</data>
+      <data key="e_weight">1</data>
+      <data key="e_width">0.166666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n13" target="n10">
+      <data key="e_type">mention</data>
+      <data key="e_weight">1</data>
+      <data key="e_width">0.166666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n13" target="n12">
+      <data key="e_type">mention</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n14" target="n0">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">22</data>
+      <data key="e_width">3.66666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n14" target="n3">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">1</data>
+      <data key="e_width">0.166666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n14" target="n5">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">4</data>
+      <data key="e_width">0.666666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n15" target="n5">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">23</data>
+      <data key="e_width">3.83333333333333</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n15" target="n16">
+      <data key="e_type">mention</data>
+      <data key="e_weight">21</data>
+      <data key="e_width">3.5</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+    <edge source="n16" target="n3">
+      <data key="e_type">hyperlink</data>
+      <data key="e_weight">4</data>
+      <data key="e_width">0.666666666666667</data>
+      <data key="e_arrow.size">0.2</data>
+      <data key="e_color">green</data>
+    </edge>
+  </graph>
+</graphml>
